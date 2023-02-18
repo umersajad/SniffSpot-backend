@@ -7,9 +7,6 @@ rvm install 3.1.0
 Database postgresql
 brew install postgres
 Clone the repository
-mkdir movies_endpoint
-
-cd movies_endpoint
 
 git clone https://github.com/umersajad/SniffSpot-backend.git
 
