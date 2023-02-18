@@ -1,24 +1,31 @@
-# README
+Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Installing
+Ruby version 3.1.0
+rvm install 3.1.0
+Database postgresql
+brew install postgres
+Clone the repository
+mkdir movies_endpoint
 
-Things you may want to cover:
+cd movies_endpoint
 
-* Ruby version
+git clone https://github.com/umersajad/SniffSpot-backend.git
 
-* System dependencies
+cd sniffSpot-backend
+Install Gems
+bundle install
+Database creation
+rails db:create
+rails db:migrate
+Populate Database with csv data
+rails db:seed
+Run app locally on 3000 port
+rails server
+it will run the app on this url. Visit it and you can play with it http://localhost:3000/
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+How to run the test suite
+rspec
+Gems and plugins
+Used rspec, factorybot along with shoulda matchers gem for test coverage
