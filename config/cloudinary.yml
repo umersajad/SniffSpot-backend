@@ -1,0 +1,19 @@
+# config/cloudinary.yml
+production:
+    config.cloud_name = 'dhvp2gwxg'
+    config.api_key = '491815333121566'
+    config.api_secret = 'lG_Ub6bDtIHCnLYnGvgyWhfrwQc'
+    enhance_image_tag: true
+    static_image_support: true
+development:
+    config.cloud_name = 'dhvp2gwxg'
+    config.api_key = '491815333121566'
+    config.api_secret = 'lG_Ub6bDtIHCnLYnGvgyWhfrwQc'
+    enhance_image_tag: true
+    static_image_support: true
+test:
+    config.cloud_name = 'dhvp2gwxg'
+    config.api_key = '491815333121566'
+    config.api_secret = 'lG_Ub6bDtIHCnLYnGvgyWhfrwQc'
+    enhance_image_tag: true
+    static_image_support: true
